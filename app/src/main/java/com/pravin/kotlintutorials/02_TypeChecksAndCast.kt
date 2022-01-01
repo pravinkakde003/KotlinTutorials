@@ -34,6 +34,8 @@ fun main() {
         is IntArray -> println(x.sum()) // Output 15
     }
 
+    /*-----------------------------------------------------------------------------*/
+
     /**
      * "Unsafe" cast operator
      *  Usually, the cast operator throws an exception if the cast isn't possible. And so, it's called unsafe.
