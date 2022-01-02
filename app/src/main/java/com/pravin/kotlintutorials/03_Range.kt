@@ -8,15 +8,19 @@ fun main() {
         print(i)   // Output : 12345
     }
 
+    //.. operator never works on the reverse ranges
+    for (i in 10..1) {
+        print(i)     // Output : noting
+    }
     /*-----------------------------------------------------------------------------*/
 
     var range = 5.downTo(1) // equivalent  var range = 5 downTo 1
     for (i in range) {
-        print(i)   // Output : 54321
+        print(i)   // Output : 5,4,3,2,1
     }
 
     for (i in 5 downTo 1 step 2) {
-        print(i)   // Output : 531
+        print(i)   // Output : 5,3,1
     }
 
     val r4 = 'a'..'z'
