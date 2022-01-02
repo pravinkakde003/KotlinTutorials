@@ -32,16 +32,27 @@ fun main() {
 
     println()
 
-    var numbers = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    var numbersArray = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 //    val arr = IntArray(5)
-    for (i in numbers.indices) {
-        print(numbers[i])
+    for (i in numbersArray.indices) {
+        print(numbersArray[i])
     }
 
     println()
 
     // Print index with value in loop
-    for ((i, value) in numbers.withIndex()) {
+    for ((i, value) in numbersArray.withIndex()) {
         println("the element at $i is $value")
+    }
+
+    println()
+
+    //foreach loop
+    numbersArray.forEach { number ->
+        println("foreach Item : $number ")
+    }
+    println()
+    numbersArray.forEachIndexed() { index, number ->
+        println("foreach index : $index Item : $number")
     }
 }
