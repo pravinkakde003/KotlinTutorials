@@ -24,6 +24,7 @@ fun main() {
     derivedClassObject.goToSchool()
 }
 
+//Abstract classes are open for extending by default.
 
 abstract class AbstractClassExample {
     abstract var name: String
