@@ -23,13 +23,13 @@ object CustomersData : MySuperClass() {      // Object Declaration
     init {
         println("Singleton class invoked.")
     }
-    var count: Int = -1             // Behaves like a STATIC variable
+    var count: Int = -1
 
-    fun typeOfCustomers(): String { // Behaves like a STATIC method
+    fun typeOfCustomers(): String {
         return "Indian"
     }
 
-    override fun myMethod(str: String) {    // Currently, behaving like a STATIC method
+    override fun myMethod(str: String) {
         super.myMethod(str)
         println("In myMethod: $str")
     }
