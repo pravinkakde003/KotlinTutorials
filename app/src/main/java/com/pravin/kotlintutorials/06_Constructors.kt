@@ -18,7 +18,7 @@ class Student(var name: String) {
     var age: Int = -1
 
     init {
-        println("In init: $name and $age")
+        println("In init block: $name and $age")
     }
 
     /**

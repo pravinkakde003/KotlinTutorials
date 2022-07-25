@@ -11,7 +11,7 @@ fun main() {
         print("b is greater")
         b
     }
-    println(maxValue)
+    println("\nmaxValue : $maxValue")
 
     /**
      * One Line If else
@@ -37,7 +37,7 @@ fun main() {
      * When expression
      * when defines a conditional expression with multiple branches. It is similar to the switch statement
      */
-    val returnedValue = when (1) {
+    val returnedValue = when (3) {
         0, 1 -> println("input number either 0 or 1")
         in 1..5 -> println("In range 1 to 5")
         10 -> println("number matched")
