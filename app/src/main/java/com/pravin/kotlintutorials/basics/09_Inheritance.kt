@@ -1,4 +1,4 @@
-package com.pravin.kotlintutorials
+package com.pravin.kotlintutorials.basics
 
 /**
  * To inherit class need to use keyword "open"

@@ -1,4 +1,4 @@
-package com.pravin.kotlintutorials
+package com.pravin.kotlintutorials.basics
 
 fun main() {
     var user1 = User("Sam", 10)

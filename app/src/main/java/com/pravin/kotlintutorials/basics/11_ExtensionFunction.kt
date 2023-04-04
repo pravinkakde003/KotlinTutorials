@@ -1,4 +1,4 @@
-package com.pravin.kotlintutorials
+package com.pravin.kotlintutorials.basics
 
 /**
  * Kotlin provides the ability to extend a class with new functionality without having to inherit from the class

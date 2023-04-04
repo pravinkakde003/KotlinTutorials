@@ -1,4 +1,4 @@
-package com.pravin.kotlintutorials
+package com.pravin.kotlintutorials.basics
 
 import java.text.SimpleDateFormat
 import java.util.*

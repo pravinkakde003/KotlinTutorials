@@ -1,4 +1,4 @@
-package com.pravin.kotlintutorials
+package com.pravin.kotlintutorials.basics
 
 /**
  * Interfaces in Kotlin can contain declarations of abstract methods, as well as method implementations.
