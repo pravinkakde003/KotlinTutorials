@@ -16,7 +16,7 @@ fun main() {
     println(string1.concatenateStrings(string2, string3))
 
     val num1 = 10
-    println(num1.addThreeNumber(20, 30))
+    println(10.addThreeNumber(20, 30))
 
 }
 
